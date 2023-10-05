@@ -7,11 +7,11 @@ import java.net.URL;
 public interface WebDriverConfig extends Config {
 
     @Key("baseUrl")
-    @DefaultValue("https://github.com")
+    @DefaultValue("https://raketa.world")
     String getBaseUrl();
 
     @Key("browser")
-    @DefaultValue("CHROME")
+    @DefaultValue("YA")
     Browser getBrowser();
 
     @Key("remoteUrl")
